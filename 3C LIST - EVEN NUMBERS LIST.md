@@ -24,8 +24,20 @@ To write a Python function that accepts a number **N** and creates a list contai
 ### PROGRAM
 
 ```
+a=eval(input())
+dup = []
+c = []
+for i in a:
+    if i not in c:
+        c.append(i)
+    else:
+        dup.append(i)
+print("Duplicate items list :",dup)
 ```
 
 ### OUTPUT
+<img width="1218" height="247" alt="image" src="https://github.com/user-attachments/assets/f863107c-9294-49b5-8c3b-cce4f63f5d94" />
 
 ### RESULT
+
+Thus, the Python program to display the duplicate items of a user-entered list has been implemented and executed successfully.
