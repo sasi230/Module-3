@@ -23,8 +23,14 @@ To write a Python function that accepts a string and forms a new string by rever
 ### PROGRAM
 
 ```
+x=input()
+y=input()
+print("Character",y,"in the",x,"is",x.count(f"{y}"),"times")
 ```
 
 ### OUTPUT
+<img width="1177" height="277" alt="image" src="https://github.com/user-attachments/assets/c80f6774-e095-467f-a539-47ca6f2ab508" />
+
 
 ### RESULT
+Thus, the Python program to find the frequency of the given character in the string has been implemented and executed successfully.
